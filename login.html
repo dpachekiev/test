@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Rlink Board Config</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> -->
+</head>
+
+<body class="container" style="background-color: #efefef;">
+    <div class="row justify-content-center align-items-center" style="height: 100vh;">
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Config Tool</h5>
+                        <form id="new_user" accept-charset="UTF-8" method="post" action="validate">
+                            <div>
+                                <label for="user_name">Username</label>
+                                <input class="form-control" autofocus="autofocus" type="text" name="user_name" id="user_name">
+                            </div>
+                            <div>
+                                <label for="user_password">Password</label>
+                                <input class="form-control" type="password" name="user_password" id="user_password">
+                            </div>
+                            <br>
+                            <!-- <button class="btn btn-primary btn-block" onclick="sendLoginData()">Login</button> -->
+                            <input type="submit" name="commit" value="Log In" class="btn btn btn-primary btn-block" data-disable-with="Ingresar">
+                        </form>
+                </div>
+            </div> 
+            <br>
+            <div class="text-center mb-3">
+                <img src="logo-rlink.png">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
